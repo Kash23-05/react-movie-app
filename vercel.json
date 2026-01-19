@@ -1,13 +1,8 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/movie/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
-
