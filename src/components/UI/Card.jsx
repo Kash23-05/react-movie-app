@@ -15,7 +15,7 @@ export const Card = ({ movieData }) => {
           <div className="ticket_content">
             <button
               className="ticket_buy-btn"
-              onClick={() => navigate(`/movie/${imdbID}`)}>
+              onClick={() => nevigate(`/movie/${imdbID}`)}>
               Watch Now
             </button>
           </div>
