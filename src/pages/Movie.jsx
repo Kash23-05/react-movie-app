@@ -6,7 +6,7 @@ import { Card } from "../components/UI/Card";
 
 const Movie = () =>{
     const [data,setData] = useState([]);
-    const API = "http://www.omdbapi.com/?s=anime&apikey=57d29f21";
+    const API = "https://www.omdbapi.com/?s=anime&apikey=57d29f21";
     const getMovieData = async() =>{
         try {
         const res= await axios.get(API);
